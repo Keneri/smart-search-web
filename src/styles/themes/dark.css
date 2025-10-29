@@ -1,0 +1,81 @@
+body.dark-theme {
+  background: linear-gradient(135deg, #050532 0%, #0a0a3c 100%);
+}
+
+body.dark-theme .container {
+  background: #151550;
+  box-shadow: 0 20px 60px rgba(5, 5, 50, 0.8);
+}
+
+body.dark-theme h1 {
+  color: #ffffff;
+}
+
+body.dark-theme .subtitle {
+  color: #b8b8cc;
+}
+
+body.dark-theme .selection-display {
+  background: #0a0a3c;
+  border-left-color: #325fff;
+}
+
+body.dark-theme .selection-display h2 {
+  color: #b8b8cc;
+}
+
+body.dark-theme .selection-content {
+  color: #ffffff;
+}
+
+body.dark-theme .selection-content pre {
+  background: #1f1f64;
+  color: #ffffff;
+}
+
+body.dark-theme smart-search {
+  --smart-search-input-bg: #151550;
+  --smart-search-input-border: #2a2a78;
+  --smart-search-input-text: #ffffff;
+  --smart-search-input-placeholder: #8b8ba3;
+  --smart-search-input-focus-border: #325fff;
+  --smart-search-input-focus-shadow: rgba(50, 95, 255, 0.4);
+
+  --smart-search-dropdown-bg: #151550;
+  --smart-search-dropdown-border: #2a2a78;
+  --smart-search-dropdown-shadow: rgba(5, 5, 50, 0.8);
+
+  --smart-search-result-item-hover-bg: #1f1f64;
+  --smart-search-result-item-selected-bg: #2a2a78;
+
+  --smart-search-group-header-text: #b8b8cc;
+  --smart-search-result-title-text: #ffffff;
+  --smart-search-result-subtitle-text: #b8b8cc;
+
+  --smart-search-clear-button-hover-bg: #1f1f64;
+  --smart-search-clear-button-color: #b8b8cc;
+  --smart-search-clear-button-hover-color: #ffffff;
+
+  --smart-search-icon-color: #8b8ba3;
+
+  --smart-search-account-icon-bg: #1f1f64;
+  --smart-search-account-icon-color: #325fff;
+
+  --smart-search-transaction-icon-bg: #2a2a78;
+  --smart-search-transaction-icon-color: #5580ff;
+
+  --smart-search-customer-icon-bg: #0a0a3c;
+  --smart-search-customer-icon-color: #325fff;
+
+  --smart-search-highlight-bg: #325fff;
+  --smart-search-highlight-text: #ffffff;
+
+  --smart-search-no-results-text: #b8b8cc;
+
+  --smart-search-scrollbar-track: #0a0a3c;
+  --smart-search-scrollbar-thumb: #2a2a78;
+  --smart-search-scrollbar-thumb-hover: #325fff;
+
+  --smart-search-divider-color: #2a2a78;
+}
+
